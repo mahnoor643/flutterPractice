@@ -1,4 +1,5 @@
 // import 'package:first_app/columnRow.dart';
+import 'package:first_app/counter_view.dart';
 import 'package:first_app/whatsappchat.dart';
 // import 'package:first_app/profile_view.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,7 @@ class MyFirstApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: WhatsappChat(),
+      home: CounterButton(),
     );
   }
 }
