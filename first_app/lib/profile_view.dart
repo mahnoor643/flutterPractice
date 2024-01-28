@@ -9,7 +9,13 @@ class ProfileView extends StatelessWidget {
       appBar: AppBar(
         title: Text("Citi Guide"),
       ),
-      body: Text("Hello kese ho"),
+      body: Container(
+        color: Colors.red,
+        //Media Query learning for responsiveness
+        //Below 0.5 means 50%
+        width:MediaQuery.of(context).size.width * 0.5,
+        height: MediaQuery.of(context).size.height * 0.5,
+      ),
     );
   }
 }
